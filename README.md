@@ -102,14 +102,12 @@ O arquivo final contém as previsões no seguinte formato:
 ⚙️ Instruções de Execução
 🔹 1. Clonar o repositório
 ```bash
-Copiar código
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
 
 🔹 2. Criar ambiente virtual (opcional, recomendado)
 ```bash
-Copiar código
 python -m venv venv
 source venv/bin/activate   # Linux/Mac
 venv\Scripts\activate      # Windows
@@ -117,13 +115,10 @@ venv\Scripts\activate      # Windows
 
 🔹 3. Instalar dependências
 ```bash
-Copiar código
 pip install -r requirements.txt
 ```
 O arquivo requirements.txt deve conter:
 
-nginx
-Copiar código
 pandas
 numpy
 lightgbm
@@ -133,7 +128,6 @@ fastparquet
 
 🔹 4. Executar o script
 ```bash
-Copiar código
 python main.py
 ```
 
